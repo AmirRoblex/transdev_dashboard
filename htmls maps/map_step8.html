@@ -1,0 +1,2108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe2b1062f457e0a0b6a79a5636aac988 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fe2b1062f457e0a0b6a79a5636aac988" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fe2b1062f457e0a0b6a79a5636aac988 = L.map(
+                "map_fe2b1062f457e0a0b6a79a5636aac988",
+                {
+                    center: [52.4718791601117, 11.837520958162289],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_712c170642f3d03c8999335657f44620 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_712c170642f3d03c8999335657f44620.addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var circle_marker_789dce5c4ae0dcee86b3adc8b0d3dd92 = L.circleMarker(
+                [52.511992542222266, 11.829565342917506],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_48e8fb97259422c50be67081afefb763 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95507dab1901b0e3077102982e5bf612 = $(`<div id="html_95507dab1901b0e3077102982e5bf612" style="width: 100.0%; height: 100.0%;">Bellingen - Both</div>`)[0];
+                popup_48e8fb97259422c50be67081afefb763.setContent(html_95507dab1901b0e3077102982e5bf612);
+            
+        
+
+        circle_marker_789dce5c4ae0dcee86b3adc8b0d3dd92.bindPopup(popup_48e8fb97259422c50be67081afefb763)
+        ;
+
+        
+    
+    
+            var circle_marker_9351fb8dae01a6a235b62cf178a23738 = L.circleMarker(
+                [52.41726156641443, 11.841416594350504],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_4708ceaf91574d060e6056c179145a64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaceb9e76fc57b319833731a95b9c6c5 = $(`<div id="html_aaceb9e76fc57b319833731a95b9c6c5" style="width: 100.0%; height: 100.0%;">Birkholz - High only</div>`)[0];
+                popup_4708ceaf91574d060e6056c179145a64.setContent(html_aaceb9e76fc57b319833731a95b9c6c5);
+            
+        
+
+        circle_marker_9351fb8dae01a6a235b62cf178a23738.bindPopup(popup_4708ceaf91574d060e6056c179145a64)
+        ;
+
+        
+    
+    
+            var circle_marker_c2958531237bb2f59c18743e6e21f704 = L.circleMarker(
+                [52.41479024771706, 11.964316091361502],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_69ba8f0cfcb64d3960f742399f4baac4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68b528d16940629141c5637d20da7bd3 = $(`<div id="html_68b528d16940629141c5637d20da7bd3" style="width: 100.0%; height: 100.0%;">Bittkau - Low only</div>`)[0];
+                popup_69ba8f0cfcb64d3960f742399f4baac4.setContent(html_68b528d16940629141c5637d20da7bd3);
+            
+        
+
+        circle_marker_c2958531237bb2f59c18743e6e21f704.bindPopup(popup_69ba8f0cfcb64d3960f742399f4baac4)
+        ;
+
+        
+    
+    
+            var circle_marker_2e5f4161e7b2c747d9d16b004995b0bf = L.circleMarker(
+                [52.50893320209915, 11.925899658870966],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_7028c71a91c5ab5d691179f83f9757f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b3f1be93ea2f962dd2898240a551d72 = $(`<div id="html_5b3f1be93ea2f962dd2898240a551d72" style="width: 100.0%; height: 100.0%;">Bölsdorf - High only</div>`)[0];
+                popup_7028c71a91c5ab5d691179f83f9757f0.setContent(html_5b3f1be93ea2f962dd2898240a551d72);
+            
+        
+
+        circle_marker_2e5f4161e7b2c747d9d16b004995b0bf.bindPopup(popup_7028c71a91c5ab5d691179f83f9757f0)
+        ;
+
+        
+    
+    
+            var circle_marker_352ebe3c34439b70e4e78d3b41010626 = L.circleMarker(
+                [52.43777608060752, 11.842665397954864],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_e2802974dbfb5515a823521abb12bc65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_502d5bc22f95565cb805b15a36f60f2e = $(`<div id="html_502d5bc22f95565cb805b15a36f60f2e" style="width: 100.0%; height: 100.0%;">Briest b. Tangerhütte - Both</div>`)[0];
+                popup_e2802974dbfb5515a823521abb12bc65.setContent(html_502d5bc22f95565cb805b15a36f60f2e);
+            
+        
+
+        circle_marker_352ebe3c34439b70e4e78d3b41010626.bindPopup(popup_e2802974dbfb5515a823521abb12bc65)
+        ;
+
+        
+    
+    
+            var circle_marker_6871ac76b41c9cd0ea20a7f9245b0893 = L.circleMarker(
+                [52.50162496383438, 11.695385006534456],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_7b9ab75650852bccabc6065488de0a7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f6ef2563dc1c15c72efd81f25978037 = $(`<div id="html_6f6ef2563dc1c15c72efd81f25978037" style="width: 100.0%; height: 100.0%;">Brunkau - High only</div>`)[0];
+                popup_7b9ab75650852bccabc6065488de0a7f.setContent(html_6f6ef2563dc1c15c72efd81f25978037);
+            
+        
+
+        circle_marker_6871ac76b41c9cd0ea20a7f9245b0893.bindPopup(popup_7b9ab75650852bccabc6065488de0a7f)
+        ;
+
+        
+    
+    
+            var circle_marker_d8de72a8480d26735c58ec54c89d30d4 = L.circleMarker(
+                [52.485239072538725, 11.942427267229695],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_252bb071df1043fdde522b53b92d2b06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98907146a422eb023ab46f4048455eb6 = $(`<div id="html_98907146a422eb023ab46f4048455eb6" style="width: 100.0%; height: 100.0%;">Buch - Both</div>`)[0];
+                popup_252bb071df1043fdde522b53b92d2b06.setContent(html_98907146a422eb023ab46f4048455eb6);
+            
+        
+
+        circle_marker_d8de72a8480d26735c58ec54c89d30d4.bindPopup(popup_252bb071df1043fdde522b53b92d2b06)
+        ;
+
+        
+    
+    
+            var circle_marker_50c3590ba2193f91c8f134d5e088815e = L.circleMarker(
+                [52.53989092256997, 11.788811422764066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_7aea48dd8ed4d2118c4ada74154b0491 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e766bb67b0a9f18293b258175e31b5e7 = $(`<div id="html_e766bb67b0a9f18293b258175e31b5e7" style="width: 100.0%; height: 100.0%;">Buchholz - High only</div>`)[0];
+                popup_7aea48dd8ed4d2118c4ada74154b0491.setContent(html_e766bb67b0a9f18293b258175e31b5e7);
+            
+        
+
+        circle_marker_50c3590ba2193f91c8f134d5e088815e.bindPopup(popup_7aea48dd8ed4d2118c4ada74154b0491)
+        ;
+
+        
+    
+    
+            var circle_marker_3ff9eddd21256f863b8f154509538ead = L.circleMarker(
+                [52.39388709667033, 11.859048732913239],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_2f4ebb9ca687298ae59a83924f617132 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76c4343de6374dfb536affe7c8db9462 = $(`<div id="html_76c4343de6374dfb536affe7c8db9462" style="width: 100.0%; height: 100.0%;">Cobbel - Both</div>`)[0];
+                popup_2f4ebb9ca687298ae59a83924f617132.setContent(html_76c4343de6374dfb536affe7c8db9462);
+            
+        
+
+        circle_marker_3ff9eddd21256f863b8f154509538ead.bindPopup(popup_2f4ebb9ca687298ae59a83924f617132)
+        ;
+
+        
+    
+    
+            var circle_marker_2aac386444d1dcac46751012c516d125 = L.circleMarker(
+                [52.561379630758765, 11.825902602538731],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_aa0d59bf04060901f172922edcb9cc50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_300cb4edc98e3ba310fac6c703f25cf3 = $(`<div id="html_300cb4edc98e3ba310fac6c703f25cf3" style="width: 100.0%; height: 100.0%;">Dahlen b. Stendal - High only</div>`)[0];
+                popup_aa0d59bf04060901f172922edcb9cc50.setContent(html_300cb4edc98e3ba310fac6c703f25cf3);
+            
+        
+
+        circle_marker_2aac386444d1dcac46751012c516d125.bindPopup(popup_aa0d59bf04060901f172922edcb9cc50)
+        ;
+
+        
+    
+    
+            var circle_marker_f1f0db098d86931ee4cccebfb7691de8 = L.circleMarker(
+                [52.5415142784473, 11.832346988830121],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_284adf38feed64a083dc7c53e689e5f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c31ae3530487e3a3ed54603507b32649 = $(`<div id="html_c31ae3530487e3a3ed54603507b32649" style="width: 100.0%; height: 100.0%;">Dahrenstedt - Both</div>`)[0];
+                popup_284adf38feed64a083dc7c53e689e5f2.setContent(html_c31ae3530487e3a3ed54603507b32649);
+            
+        
+
+        circle_marker_f1f0db098d86931ee4cccebfb7691de8.bindPopup(popup_284adf38feed64a083dc7c53e689e5f2)
+        ;
+
+        
+    
+    
+            var circle_marker_3db86c799829b0f0104a02778f7531fd = L.circleMarker(
+                [52.50737174224145, 11.85364753543482],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_8cbb388a9f81bf302b3b223a009189bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e9585f43ef2756701fd5d3a6f76a43a = $(`<div id="html_8e9585f43ef2756701fd5d3a6f76a43a" style="width: 100.0%; height: 100.0%;">Demker - Both</div>`)[0];
+                popup_8cbb388a9f81bf302b3b223a009189bb.setContent(html_8e9585f43ef2756701fd5d3a6f76a43a);
+            
+        
+
+        circle_marker_3db86c799829b0f0104a02778f7531fd.bindPopup(popup_8cbb388a9f81bf302b3b223a009189bb)
+        ;
+
+        
+    
+    
+            var circle_marker_d348d7eba6da41859f788d9327c09f1e = L.circleMarker(
+                [52.51426919339359, 11.873618387338057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_2527fadb40ad95f5e05600027a6c5e3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8cbbf068ea6b74dcc957781726196cb = $(`<div id="html_c8cbbf068ea6b74dcc957781726196cb" style="width: 100.0%; height: 100.0%;">Elversdorf - Both</div>`)[0];
+                popup_2527fadb40ad95f5e05600027a6c5e3b.setContent(html_c8cbbf068ea6b74dcc957781726196cb);
+            
+        
+
+        circle_marker_d348d7eba6da41859f788d9327c09f1e.bindPopup(popup_2527fadb40ad95f5e05600027a6c5e3b)
+        ;
+
+        
+    
+    
+            var circle_marker_51f026bda12f20623b1538712d33ec53 = L.circleMarker(
+                [52.55682838455453, 11.809591300772393],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_9d9297286e348a3cd03eeca77df07a6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_234bbbb9718f7a0e627ba0a29752c9e5 = $(`<div id="html_234bbbb9718f7a0e627ba0a29752c9e5" style="width: 100.0%; height: 100.0%;">Gohre - High only</div>`)[0];
+                popup_9d9297286e348a3cd03eeca77df07a6d.setContent(html_234bbbb9718f7a0e627ba0a29752c9e5);
+            
+        
+
+        circle_marker_51f026bda12f20623b1538712d33ec53.bindPopup(popup_9d9297286e348a3cd03eeca77df07a6d)
+        ;
+
+        
+    
+    
+            var circle_marker_e3763ee493c98dece1ff5143f0c505e7 = L.circleMarker(
+                [52.43606354299748, 11.96166315202369],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_44740a48c7b69309957bf1e01b0e1104 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_571ed981c6fba85fed3b1032a321477c = $(`<div id="html_571ed981c6fba85fed3b1032a321477c" style="width: 100.0%; height: 100.0%;">Grieben - Both</div>`)[0];
+                popup_44740a48c7b69309957bf1e01b0e1104.setContent(html_571ed981c6fba85fed3b1032a321477c);
+            
+        
+
+        circle_marker_e3763ee493c98dece1ff5143f0c505e7.bindPopup(popup_44740a48c7b69309957bf1e01b0e1104)
+        ;
+
+        
+    
+    
+            var circle_marker_42db1d6396ce05272e24a36a2d42002b = L.circleMarker(
+                [52.52429984337234, 11.895889917899533],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_e6dd798c72d7b07e29ddf2841a6c5d79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39068f958bf7f7391cf120233fd362de = $(`<div id="html_39068f958bf7f7391cf120233fd362de" style="width: 100.0%; height: 100.0%;">Grobleben - Both</div>`)[0];
+                popup_e6dd798c72d7b07e29ddf2841a6c5d79.setContent(html_39068f958bf7f7391cf120233fd362de);
+            
+        
+
+        circle_marker_42db1d6396ce05272e24a36a2d42002b.bindPopup(popup_e6dd798c72d7b07e29ddf2841a6c5d79)
+        ;
+
+        
+    
+    
+            var circle_marker_df6a710f5597febe58d3e2ee987c01f4 = L.circleMarker(
+                [52.50414195897268, 11.755276755682523],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_3da34037bc8421d28defdb1c670d67bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5316a46abb70d3540443e21a9fec455 = $(`<div id="html_b5316a46abb70d3540443e21a9fec455" style="width: 100.0%; height: 100.0%;">Groß Schwarzlosen - Both</div>`)[0];
+                popup_3da34037bc8421d28defdb1c670d67bf.setContent(html_b5316a46abb70d3540443e21a9fec455);
+            
+        
+
+        circle_marker_df6a710f5597febe58d3e2ee987c01f4.bindPopup(popup_3da34037bc8421d28defdb1c670d67bf)
+        ;
+
+        
+    
+    
+            var circle_marker_b5d0487437b73328d4425559654d4838 = L.circleMarker(
+                [52.54165641540213, 11.890097862200003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_faf6017c8ebb06e39644fd7a56cfd989 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef852c69b6ab63ab06de5e0aa8964a5e = $(`<div id="html_ef852c69b6ab63ab06de5e0aa8964a5e" style="width: 100.0%; height: 100.0%;">Heeren - High only</div>`)[0];
+                popup_faf6017c8ebb06e39644fd7a56cfd989.setContent(html_ef852c69b6ab63ab06de5e0aa8964a5e);
+            
+        
+
+        circle_marker_b5d0487437b73328d4425559654d4838.bindPopup(popup_faf6017c8ebb06e39644fd7a56cfd989)
+        ;
+
+        
+    
+    
+            var circle_marker_72986fa576f407f3553f55cb16e2a39d = L.circleMarker(
+                [52.50825906148735, 11.807123170219839],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_04f53fe04836b68c37091218bfd22f1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af6ef2ce70bf14155693901e8c189c41 = $(`<div id="html_af6ef2ce70bf14155693901e8c189c41" style="width: 100.0%; height: 100.0%;">Hüselitz - Both</div>`)[0];
+                popup_04f53fe04836b68c37091218bfd22f1a.setContent(html_af6ef2ce70bf14155693901e8c189c41);
+            
+        
+
+        circle_marker_72986fa576f407f3553f55cb16e2a39d.bindPopup(popup_04f53fe04836b68c37091218bfd22f1a)
+        ;
+
+        
+    
+    
+            var circle_marker_70f61939313a7d483e7746dae82712e9 = L.circleMarker(
+                [52.461263169980626, 11.947594610447556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_73a4dbf2d06f8ba82a223c14f8f6e063 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4917ef9dc78f49a71d948715d820a4e = $(`<div id="html_a4917ef9dc78f49a71d948715d820a4e" style="width: 100.0%; height: 100.0%;">Jerchel - High only</div>`)[0];
+                popup_73a4dbf2d06f8ba82a223c14f8f6e063.setContent(html_a4917ef9dc78f49a71d948715d820a4e);
+            
+        
+
+        circle_marker_70f61939313a7d483e7746dae82712e9.bindPopup(popup_73a4dbf2d06f8ba82a223c14f8f6e063)
+        ;
+
+        
+    
+    
+            var circle_marker_e46b71ae2eb078478e1fa206d38d0e96 = L.circleMarker(
+                [52.34215083156344, 11.859147273089926],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_8604ef11e1ae8d0b485aba59dbc35749 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f640e289509807388ee39e94add8406 = $(`<div id="html_3f640e289509807388ee39e94add8406" style="width: 100.0%; height: 100.0%;">Kehnert - Both</div>`)[0];
+                popup_8604ef11e1ae8d0b485aba59dbc35749.setContent(html_3f640e289509807388ee39e94add8406);
+            
+        
+
+        circle_marker_e46b71ae2eb078478e1fa206d38d0e96.bindPopup(popup_8604ef11e1ae8d0b485aba59dbc35749)
+        ;
+
+        
+    
+    
+            var circle_marker_919858023927e0933d92639127d7609a = L.circleMarker(
+                [52.49689006562406, 11.792591937642236],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_e60cfbcce438763f8cc79ce841a82fb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49b3bf611e19fcc5f2fd5d5f0ab1aa73 = $(`<div id="html_49b3bf611e19fcc5f2fd5d5f0ab1aa73" style="width: 100.0%; height: 100.0%;">Klein Schwarzlosen - Both</div>`)[0];
+                popup_e60cfbcce438763f8cc79ce841a82fb7.setContent(html_49b3bf611e19fcc5f2fd5d5f0ab1aa73);
+            
+        
+
+        circle_marker_919858023927e0933d92639127d7609a.bindPopup(popup_e60cfbcce438763f8cc79ce841a82fb7)
+        ;
+
+        
+    
+    
+            var circle_marker_aaf5592c3e15c7fb000d0f6cfab17447 = L.circleMarker(
+                [52.49773830305871, 11.898924949133294],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_7884f888ac821a1cf293c0419b12fdde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf9adb502c2c323c82d422a2b1f8a9eb = $(`<div id="html_bf9adb502c2c323c82d422a2b1f8a9eb" style="width: 100.0%; height: 100.0%;">Köckte - Both</div>`)[0];
+                popup_7884f888ac821a1cf293c0419b12fdde.setContent(html_bf9adb502c2c323c82d422a2b1f8a9eb);
+            
+        
+
+        circle_marker_aaf5592c3e15c7fb000d0f6cfab17447.bindPopup(popup_7884f888ac821a1cf293c0419b12fdde)
+        ;
+
+        
+    
+    
+            var circle_marker_7fd9a9101da38a3702e15095bee184e6 = L.circleMarker(
+                [52.508495770379334, 11.745470918580516],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_8de8bb47eef3ca70c91a6673c0339634 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1312870ca3b34510f35fed7757430d2b = $(`<div id="html_1312870ca3b34510f35fed7757430d2b" style="width: 100.0%; height: 100.0%;">Lüderitz - Both</div>`)[0];
+                popup_8de8bb47eef3ca70c91a6673c0339634.setContent(html_1312870ca3b34510f35fed7757430d2b);
+            
+        
+
+        circle_marker_7fd9a9101da38a3702e15095bee184e6.bindPopup(popup_8de8bb47eef3ca70c91a6673c0339634)
+        ;
+
+        
+    
+    
+            var circle_marker_3288387ac8dfcde45d94a45b8d9d3e19 = L.circleMarker(
+                [52.43041212350052, 11.769780899468113],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_775bb9e5a17c65856ebd10d784186259 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90c080d4d1c85abfcc15225531d3acaa = $(`<div id="html_90c080d4d1c85abfcc15225531d3acaa" style="width: 100.0%; height: 100.0%;">Mahlpfuhl - Both</div>`)[0];
+                popup_775bb9e5a17c65856ebd10d784186259.setContent(html_90c080d4d1c85abfcc15225531d3acaa);
+            
+        
+
+        circle_marker_3288387ac8dfcde45d94a45b8d9d3e19.bindPopup(popup_775bb9e5a17c65856ebd10d784186259)
+        ;
+
+        
+    
+    
+            var circle_marker_21b462ab57e3828a25fd6e24f7ff989c = L.circleMarker(
+                [52.518032585940055, 11.695369893471588],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_8414bc98a5b3dbe2b442a0cab746fc0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c6b826cdb32cb65d7f9c5f1b256d8a5 = $(`<div id="html_0c6b826cdb32cb65d7f9c5f1b256d8a5" style="width: 100.0%; height: 100.0%;">Ottersburg - Both</div>`)[0];
+                popup_8414bc98a5b3dbe2b442a0cab746fc0e.setContent(html_0c6b826cdb32cb65d7f9c5f1b256d8a5);
+            
+        
+
+        circle_marker_21b462ab57e3828a25fd6e24f7ff989c.bindPopup(popup_8414bc98a5b3dbe2b442a0cab746fc0e)
+        ;
+
+        
+    
+    
+            var circle_marker_eaf8dbbdc0285b0af58617d0d1359279 = L.circleMarker(
+                [52.39139230231831, 11.922062274456128],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_5be753d160c192cd8565b17604d68282 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e4f654d5eb5ba0fd6ead0fdab9864f3 = $(`<div id="html_7e4f654d5eb5ba0fd6ead0fdab9864f3" style="width: 100.0%; height: 100.0%;">Polte - Both</div>`)[0];
+                popup_5be753d160c192cd8565b17604d68282.setContent(html_7e4f654d5eb5ba0fd6ead0fdab9864f3);
+            
+        
+
+        circle_marker_eaf8dbbdc0285b0af58617d0d1359279.bindPopup(popup_5be753d160c192cd8565b17604d68282)
+        ;
+
+        
+    
+    
+            var circle_marker_e7aa4ae77abaaa638f7fa5895076cdcb = L.circleMarker(
+                [52.38217207647468, 11.904601375501164],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_7e841bcaca6414705778c57564967edd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1b0461024bcadc8704837edf5c22c65 = $(`<div id="html_f1b0461024bcadc8704837edf5c22c65" style="width: 100.0%; height: 100.0%;">Ringfurth - Both</div>`)[0];
+                popup_7e841bcaca6414705778c57564967edd.setContent(html_f1b0461024bcadc8704837edf5c22c65);
+            
+        
+
+        circle_marker_e7aa4ae77abaaa638f7fa5895076cdcb.bindPopup(popup_7e841bcaca6414705778c57564967edd)
+        ;
+
+        
+    
+    
+            var circle_marker_673199534ee9a1e5db3c5dce07ed68b9 = L.circleMarker(
+                [52.3638710037476, 11.892852733411148],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_3d5f312e95c2e1c1c524c4fc1e159b1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4492bc96a1898f952da1bff879ba80c6 = $(`<div id="html_4492bc96a1898f952da1bff879ba80c6" style="width: 100.0%; height: 100.0%;">Sandfurth - Both</div>`)[0];
+                popup_3d5f312e95c2e1c1c524c4fc1e159b1e.setContent(html_4492bc96a1898f952da1bff879ba80c6);
+            
+        
+
+        circle_marker_673199534ee9a1e5db3c5dce07ed68b9.bindPopup(popup_3d5f312e95c2e1c1c524c4fc1e159b1e)
+        ;
+
+        
+    
+    
+            var circle_marker_ecf172b3858d850d775c68bc14fc5d65 = L.circleMarker(
+                [52.41302084802179, 11.875079986414644],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_6b34ca07fe961852a7d6d2b71ef0b47b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1af1daa2f6a34c3314baa7b66fe01034 = $(`<div id="html_1af1daa2f6a34c3314baa7b66fe01034" style="width: 100.0%; height: 100.0%;">Scheeren - High only</div>`)[0];
+                popup_6b34ca07fe961852a7d6d2b71ef0b47b.setContent(html_1af1daa2f6a34c3314baa7b66fe01034);
+            
+        
+
+        circle_marker_ecf172b3858d850d775c68bc14fc5d65.bindPopup(popup_6b34ca07fe961852a7d6d2b71ef0b47b)
+        ;
+
+        
+    
+    
+            var circle_marker_370663d2eab2c8d5a0ed080abd41eea4 = L.circleMarker(
+                [52.47119297621549, 11.980298772123152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_905b0207b60a6db0484ec00d17561bbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eadef9fbcbe78ed9fad82b04c8786d55 = $(`<div id="html_eadef9fbcbe78ed9fad82b04c8786d55" style="width: 100.0%; height: 100.0%;">Schelldorf - Both</div>`)[0];
+                popup_905b0207b60a6db0484ec00d17561bbc.setContent(html_eadef9fbcbe78ed9fad82b04c8786d55);
+            
+        
+
+        circle_marker_370663d2eab2c8d5a0ed080abd41eea4.bindPopup(popup_905b0207b60a6db0484ec00d17561bbc)
+        ;
+
+        
+    
+    
+            var circle_marker_a81ad870f938482f192ed361808419ed = L.circleMarker(
+                [52.46521122643148, 11.73199168371914],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_f182177fa9f1ba1eb23b99149d49567c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67bfdc064ca8e0ef5c4b0cf36b5d66e1 = $(`<div id="html_67bfdc064ca8e0ef5c4b0cf36b5d66e1" style="width: 100.0%; height: 100.0%;">Schernebeck - High only</div>`)[0];
+                popup_f182177fa9f1ba1eb23b99149d49567c.setContent(html_67bfdc064ca8e0ef5c4b0cf36b5d66e1);
+            
+        
+
+        circle_marker_a81ad870f938482f192ed361808419ed.bindPopup(popup_f182177fa9f1ba1eb23b99149d49567c)
+        ;
+
+        
+    
+    
+            var circle_marker_84e5ac75d84637149eb2f3861c5e40bd = L.circleMarker(
+                [52.51415372114078, 11.724870026744098],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_2486e64ccab04d7b8cc9414839180d0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89ba9d1a62d4ddefca4002fa951d6e80 = $(`<div id="html_89ba9d1a62d4ddefca4002fa951d6e80" style="width: 100.0%; height: 100.0%;">Schleuß - Both</div>`)[0];
+                popup_2486e64ccab04d7b8cc9414839180d0e.setContent(html_89ba9d1a62d4ddefca4002fa951d6e80);
+            
+        
+
+        circle_marker_84e5ac75d84637149eb2f3861c5e40bd.bindPopup(popup_2486e64ccab04d7b8cc9414839180d0e)
+        ;
+
+        
+    
+    
+            var circle_marker_28aabcbe3b09e194f2afb7b67e9825cc = L.circleMarker(
+                [52.463107984918906, 11.794892283160618],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_c7e537f8834b09d7cca27718c7459c07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_321e367418e8b89db141d73a0e010540 = $(`<div id="html_321e367418e8b89db141d73a0e010540" style="width: 100.0%; height: 100.0%;">Schönwalde (Altmark) - High only</div>`)[0];
+                popup_c7e537f8834b09d7cca27718c7459c07.setContent(html_321e367418e8b89db141d73a0e010540);
+            
+        
+
+        circle_marker_28aabcbe3b09e194f2afb7b67e9825cc.bindPopup(popup_c7e537f8834b09d7cca27718c7459c07)
+        ;
+
+        
+    
+    
+            var circle_marker_d88e7139febee34e58385f3db210bdea = L.circleMarker(
+                [52.47721716047661, 11.767481131779155],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_a803f2feedb7e3d57fe8e9f7c0635d25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b7142f4eb3d721b1233bb6b6d0c05f8 = $(`<div id="html_5b7142f4eb3d721b1233bb6b6d0c05f8" style="width: 100.0%; height: 100.0%;">Stegelitz - Both</div>`)[0];
+                popup_a803f2feedb7e3d57fe8e9f7c0635d25.setContent(html_5b7142f4eb3d721b1233bb6b6d0c05f8);
+            
+        
+
+        circle_marker_d88e7139febee34e58385f3db210bdea.bindPopup(popup_a803f2feedb7e3d57fe8e9f7c0635d25)
+        ;
+
+        
+    
+    
+            var circle_marker_6f62e6a57138bcaed6170147c8a57358 = L.circleMarker(
+                [52.43460106391, 11.807088227084463],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_62c0674c5d3f11eb4898bcbea68b8d1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0622cc3405aa089b3bceabb186a739df = $(`<div id="html_0622cc3405aa089b3bceabb186a739df" style="width: 100.0%; height: 100.0%;">Tangerhütte - High only</div>`)[0];
+                popup_62c0674c5d3f11eb4898bcbea68b8d1b.setContent(html_0622cc3405aa089b3bceabb186a739df);
+            
+        
+
+        circle_marker_6f62e6a57138bcaed6170147c8a57358.bindPopup(popup_62c0674c5d3f11eb4898bcbea68b8d1b)
+        ;
+
+        
+    
+    
+            var circle_marker_85c43b61ef83b17d64b1ed316f166a56 = L.circleMarker(
+                [52.414982790485375, 11.74669240665229],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_aa2663f09c7c6b91aae8f1ee43a92823 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_891c26dcb9d8336e58c9fc09a57e12f2 = $(`<div id="html_891c26dcb9d8336e58c9fc09a57e12f2" style="width: 100.0%; height: 100.0%;">Uchtdorf - Low only</div>`)[0];
+                popup_aa2663f09c7c6b91aae8f1ee43a92823.setContent(html_891c26dcb9d8336e58c9fc09a57e12f2);
+            
+        
+
+        circle_marker_85c43b61ef83b17d64b1ed316f166a56.bindPopup(popup_aa2663f09c7c6b91aae8f1ee43a92823)
+        ;
+
+        
+    
+    
+            var circle_marker_4e0888b5eae081c66b61e9dd3ab028e2 = L.circleMarker(
+                [52.3662939442837, 11.846583278232535],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_5756f7c5404716d949ab261836b38897 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73aab17d93b8842c07009203c083edf3 = $(`<div id="html_73aab17d93b8842c07009203c083edf3" style="width: 100.0%; height: 100.0%;">Uetz - High only</div>`)[0];
+                popup_5756f7c5404716d949ab261836b38897.setContent(html_73aab17d93b8842c07009203c083edf3);
+            
+        
+
+        circle_marker_4e0888b5eae081c66b61e9dd3ab028e2.bindPopup(popup_5756f7c5404716d949ab261836b38897)
+        ;
+
+        
+    
+    
+            var circle_marker_23292e7270d2b7c02565c1fd89adc6c3 = L.circleMarker(
+                [52.46651002430003, 11.874391142476838],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_aa7cc60c9857685ff4b2e78f7b70a2ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d653daecc279aeb9860c6ea52d91f92c = $(`<div id="html_d653daecc279aeb9860c6ea52d91f92c" style="width: 100.0%; height: 100.0%;">Weißewarte - Low only</div>`)[0];
+                popup_aa7cc60c9857685ff4b2e78f7b70a2ba.setContent(html_d653daecc279aeb9860c6ea52d91f92c);
+            
+        
+
+        circle_marker_23292e7270d2b7c02565c1fd89adc6c3.bindPopup(popup_aa7cc60c9857685ff4b2e78f7b70a2ba)
+        ;
+
+        
+    
+    
+            var circle_marker_42a60939be17199cc6a539d43eaac5ff = L.circleMarker(
+                [52.539341955254386, 11.84998415230925],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_b890025f800fe20e7e27ec009e1801f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a10f60ed6c97d354b96e40b05b1249c = $(`<div id="html_4a10f60ed6c97d354b96e40b05b1249c" style="width: 100.0%; height: 100.0%;">Welle - Both</div>`)[0];
+                popup_b890025f800fe20e7e27ec009e1801f7.setContent(html_4a10f60ed6c97d354b96e40b05b1249c);
+            
+        
+
+        circle_marker_42a60939be17199cc6a539d43eaac5ff.bindPopup(popup_b890025f800fe20e7e27ec009e1801f7)
+        ;
+
+        
+    
+    
+            var circle_marker_5535641c608ee6355227d40d877dcdf8 = L.circleMarker(
+                [52.52181389025252, 11.715916140919473],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_430376afdac9e4c9e9d09c8cdc9444c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a7f7763931abae55b5bcab9a69ea0df = $(`<div id="html_8a7f7763931abae55b5bcab9a69ea0df" style="width: 100.0%; height: 100.0%;">Windberge - Both</div>`)[0];
+                popup_430376afdac9e4c9e9d09c8cdc9444c2.setContent(html_8a7f7763931abae55b5bcab9a69ea0df);
+            
+        
+
+        circle_marker_5535641c608ee6355227d40d877dcdf8.bindPopup(popup_430376afdac9e4c9e9d09c8cdc9444c2)
+        ;
+
+        
+    
+    
+            var marker_b054ed28ded149885e0c7a43c9cc8127 = L.marker(
+                [52.4335114117035, 11.956200441883665],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_46cbd31f7b50935b211b6c655a8db3d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91168b6ad6b566d37dde34b970e37c82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22753fc66bbaa02f18db2c654fb2e865 = $(`<div id="html_22753fc66bbaa02f18db2c654fb2e865" style="width: 100.0%; height: 100.0%;">🏫 GS Grieben</div>`)[0];
+                popup_91168b6ad6b566d37dde34b970e37c82.setContent(html_22753fc66bbaa02f18db2c654fb2e865);
+            
+        
+
+        marker_b054ed28ded149885e0c7a43c9cc8127.bindPopup(popup_91168b6ad6b566d37dde34b970e37c82)
+        ;
+
+        
+    
+    
+                marker_b054ed28ded149885e0c7a43c9cc8127.setIcon(icon_46cbd31f7b50935b211b6c655a8db3d2);
+            
+    
+            var marker_07875de9a07639b9420024d2970662fa = L.marker(
+                [52.50889996567391, 11.744000012194814],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_4947edb811a5c927cff085e1b7dce977 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dec3f69aca669d8c597673098a656eb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa2471c573b7459899fee872a573d79f = $(`<div id="html_fa2471c573b7459899fee872a573d79f" style="width: 100.0%; height: 100.0%;">🏫 GS Lüderitz</div>`)[0];
+                popup_dec3f69aca669d8c597673098a656eb0.setContent(html_fa2471c573b7459899fee872a573d79f);
+            
+        
+
+        marker_07875de9a07639b9420024d2970662fa.bindPopup(popup_dec3f69aca669d8c597673098a656eb0)
+        ;
+
+        
+    
+    
+                marker_07875de9a07639b9420024d2970662fa.setIcon(icon_4947edb811a5c927cff085e1b7dce977);
+            
+    
+            var marker_c67f53b530f49f55994d4eae98971d30 = L.marker(
+                [52.60899998738946, 11.85400003471951],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_d6ee3214f7fb375889019f253e2c50ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24f6644870d3145ed4fd0e3dc7495524 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c772846c0cdcd48aef0d2024bfbe05ec = $(`<div id="html_c772846c0cdcd48aef0d2024bfbe05ec" style="width: 100.0%; height: 100.0%;">🏫 GS all-day elementary school Stendal</div>`)[0];
+                popup_24f6644870d3145ed4fd0e3dc7495524.setContent(html_c772846c0cdcd48aef0d2024bfbe05ec);
+            
+        
+
+        marker_c67f53b530f49f55994d4eae98971d30.bindPopup(popup_24f6644870d3145ed4fd0e3dc7495524)
+        ;
+
+        
+    
+    
+                marker_c67f53b530f49f55994d4eae98971d30.setIcon(icon_d6ee3214f7fb375889019f253e2c50ea);
+            
+    
+            var marker_0db1e149cdfe1ae273714fa308cc766c = L.marker(
+                [52.603999975361546, 11.850000060463882],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_f952bfb4f6e7c27e9948b5de09523029 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d44becab01b713e8805ee77a333d3e37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14404cd76b384833f518c9b5ae1534bc = $(`<div id="html_14404cd76b384833f518c9b5ae1534bc" style="width: 100.0%; height: 100.0%;">🏫 GS "Am Stadtsee" Stendal</div>`)[0];
+                popup_d44becab01b713e8805ee77a333d3e37.setContent(html_14404cd76b384833f518c9b5ae1534bc);
+            
+        
+
+        marker_0db1e149cdfe1ae273714fa308cc766c.bindPopup(popup_d44becab01b713e8805ee77a333d3e37)
+        ;
+
+        
+    
+    
+                marker_0db1e149cdfe1ae273714fa308cc766c.setIcon(icon_f952bfb4f6e7c27e9948b5de09523029);
+            
+    
+            var marker_33979c315a2894d7aa707bc371222039 = L.marker(
+                [52.60600003384552, 11.852000072802882],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_13ceb46f96cf70c45393ec003edb67bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cbe1fb425d5691ba498f35baaa1513eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd895acab2f93515872a8c5c5caae052 = $(`<div id="html_cd895acab2f93515872a8c5c5caae052" style="width: 100.0%; height: 100.0%;">🏫 GS "North" Stendal</div>`)[0];
+                popup_cbe1fb425d5691ba498f35baaa1513eb.setContent(html_cd895acab2f93515872a8c5c5caae052);
+            
+        
+
+        marker_33979c315a2894d7aa707bc371222039.bindPopup(popup_cbe1fb425d5691ba498f35baaa1513eb)
+        ;
+
+        
+    
+    
+                marker_33979c315a2894d7aa707bc371222039.setIcon(icon_13ceb46f96cf70c45393ec003edb67bf);
+            
+    
+            var marker_8efe601a05b4538112a1f5ba98e60cb9 = L.marker(
+                [52.606999962992305, 11.852999994857592],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_f02622fd65cd522601136c3a09183ed6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f11dcf0b48235ace9e91a588c294be2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_233c8722e3b7796dc5f06a790dd9fa6e = $(`<div id="html_233c8722e3b7796dc5f06a790dd9fa6e" style="width: 100.0%; height: 100.0%;">🏫 GS "Haferbreite" Stendal</div>`)[0];
+                popup_f11dcf0b48235ace9e91a588c294be2f.setContent(html_233c8722e3b7796dc5f06a790dd9fa6e);
+            
+        
+
+        marker_8efe601a05b4538112a1f5ba98e60cb9.bindPopup(popup_f11dcf0b48235ace9e91a588c294be2f)
+        ;
+
+        
+    
+    
+                marker_8efe601a05b4538112a1f5ba98e60cb9.setIcon(icon_f02622fd65cd522601136c3a09183ed6);
+            
+    
+            var marker_011ab84cbd795765fcfe9aa49f65b516 = L.marker(
+                [52.434399958994696, 11.816499967830735],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_80d117554d6293ab2ebd9a84ce729405 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed6c20d48066dcacb818209826588ffb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e81f678b7c4cb9cf69da42ae13a14f36 = $(`<div id="html_e81f678b7c4cb9cf69da42ae13a14f36" style="width: 100.0%; height: 100.0%;">🏫 GS Tangerhütte "Am Tanger"</div>`)[0];
+                popup_ed6c20d48066dcacb818209826588ffb.setContent(html_e81f678b7c4cb9cf69da42ae13a14f36);
+            
+        
+
+        marker_011ab84cbd795765fcfe9aa49f65b516.bindPopup(popup_ed6c20d48066dcacb818209826588ffb)
+        ;
+
+        
+    
+    
+                marker_011ab84cbd795765fcfe9aa49f65b516.setIcon(icon_80d117554d6293ab2ebd9a84ce729405);
+            
+    
+            var marker_a4d770062c86c87501903bbdfacfcd6a = L.marker(
+                [52.5440000299024, 11.970999984248852],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_45d4411068c735429b8c5aef891c4883 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_faaa51906330217501121730577f7263 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9362e9a308081152bc4563aff6df6ac = $(`<div id="html_b9362e9a308081152bc4563aff6df6ac" style="width: 100.0%; height: 100.0%;">🏫 GS "Comenius" Tangermünde</div>`)[0];
+                popup_faaa51906330217501121730577f7263.setContent(html_b9362e9a308081152bc4563aff6df6ac);
+            
+        
+
+        marker_a4d770062c86c87501903bbdfacfcd6a.bindPopup(popup_faaa51906330217501121730577f7263)
+        ;
+
+        
+    
+    
+                marker_a4d770062c86c87501903bbdfacfcd6a.setIcon(icon_45d4411068c735429b8c5aef891c4883);
+            
+    
+            var marker_5722208920d088132f338cf736c2ff0b = L.marker(
+                [52.60500000922374, 11.851000043563724],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_74708039f82e01a6438fb32423affe1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_403b745ad613b4fd2909cc5ee721f55d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4ec71ce3cd6ec9913616cfad2254e13 = $(`<div id="html_f4ec71ce3cd6ec9913616cfad2254e13" style="width: 100.0%; height: 100.0%;">🏫 SkS "Comenius" Ganzt. Stendal</div>`)[0];
+                popup_403b745ad613b4fd2909cc5ee721f55d.setContent(html_f4ec71ce3cd6ec9913616cfad2254e13);
+            
+        
+
+        marker_5722208920d088132f338cf736c2ff0b.bindPopup(popup_403b745ad613b4fd2909cc5ee721f55d)
+        ;
+
+        
+    
+    
+                marker_5722208920d088132f338cf736c2ff0b.setIcon(icon_74708039f82e01a6438fb32423affe1f);
+            
+    
+            var marker_bc9f503cd376096948e7410897bb2877 = L.marker(
+                [52.60799997816386, 11.85300003702093],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_0482f0623ace92e300b499e7c225e5ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8eae3760a1b14cdcaad7b17a6226be1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48856492ea317cc48d36653b850d78b4 = $(`<div id="html_48856492ea317cc48d36653b850d78b4" style="width: 100.0%; height: 100.0%;">🏫 SkS "Diesterweg" Stendal</div>`)[0];
+                popup_d8eae3760a1b14cdcaad7b17a6226be1.setContent(html_48856492ea317cc48d36653b850d78b4);
+            
+        
+
+        marker_bc9f503cd376096948e7410897bb2877.bindPopup(popup_d8eae3760a1b14cdcaad7b17a6226be1)
+        ;
+
+        
+    
+    
+                marker_bc9f503cd376096948e7410897bb2877.setIcon(icon_0482f0623ace92e300b499e7c225e5ad);
+            
+    
+            var marker_4dc6d2e16f58d7ce7d3d422d49f31a1f = L.marker(
+                [52.544999960366646, 11.971999996848078],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_9230a284da0dc94d7773732c99ccb71c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa1b21b202388674f2f64d5a72ff6450 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09374b9294dfb5ce337d9e8fd39e6696 = $(`<div id="html_09374b9294dfb5ce337d9e8fd39e6696" style="width: 100.0%; height: 100.0%;">🏫 SkS "Hinrich Brunsberg" Tangermünde</div>`)[0];
+                popup_aa1b21b202388674f2f64d5a72ff6450.setContent(html_09374b9294dfb5ce337d9e8fd39e6696);
+            
+        
+
+        marker_4dc6d2e16f58d7ce7d3d422d49f31a1f.bindPopup(popup_aa1b21b202388674f2f64d5a72ff6450)
+        ;
+
+        
+    
+    
+                marker_4dc6d2e16f58d7ce7d3d422d49f31a1f.setIcon(icon_9230a284da0dc94d7773732c99ccb71c);
+            
+    
+            var marker_1fdf4a6c978b2d340f5b134a02f7aeeb = L.marker(
+                [52.43200001502028, 11.81500001912681],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_4af0171628468085f64ce19bff672940 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_604025ef2815a31758ba06659f6dd407 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abe5b4cfce6be5771ffdb09f92693d3c = $(`<div id="html_abe5b4cfce6be5771ffdb09f92693d3c" style="width: 100.0%; height: 100.0%;">🏫 GEM Tangerhütte</div>`)[0];
+                popup_604025ef2815a31758ba06659f6dd407.setContent(html_abe5b4cfce6be5771ffdb09f92693d3c);
+            
+        
+
+        marker_1fdf4a6c978b2d340f5b134a02f7aeeb.bindPopup(popup_604025ef2815a31758ba06659f6dd407)
+        ;
+
+        
+    
+    
+                marker_1fdf4a6c978b2d340f5b134a02f7aeeb.setIcon(icon_4af0171628468085f64ce19bff672940);
+            
+    
+            var marker_76ea0a6b5f437bee62fb62c920a4c0b6 = L.marker(
+                [52.545999971337345, 11.973000061581446],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_450ebe123ecccb8c87fd2af8c6312dc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b78dd335598fe01ddefaa02290f0913 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e25a777e2358b12a5a4321b3660ea6b = $(`<div id="html_1e25a777e2358b12a5a4321b3660ea6b" style="width: 100.0%; height: 100.0%;">🏫 Gym "Diesterweg" Tangermünde</div>`)[0];
+                popup_5b78dd335598fe01ddefaa02290f0913.setContent(html_1e25a777e2358b12a5a4321b3660ea6b);
+            
+        
+
+        marker_76ea0a6b5f437bee62fb62c920a4c0b6.bindPopup(popup_5b78dd335598fe01ddefaa02290f0913)
+        ;
+
+        
+    
+    
+                marker_76ea0a6b5f437bee62fb62c920a4c0b6.setIcon(icon_450ebe123ecccb8c87fd2af8c6312dc6);
+            
+    
+            var marker_990ea6de28046015bdb558f813fde1a5 = L.marker(
+                [52.60319999947099, 11.854099963943723],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_7f3b29e4eb09d83c8a73233f6daecda2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aff16856d8af73c71136162bf53bda57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e14c278a00fc8e019cf445d506075621 = $(`<div id="html_e14c278a00fc8e019cf445d506075621" style="width: 100.0%; height: 100.0%;">🏫 Gym "Winckelmann" Stendal</div>`)[0];
+                popup_aff16856d8af73c71136162bf53bda57.setContent(html_e14c278a00fc8e019cf445d506075621);
+            
+        
+
+        marker_990ea6de28046015bdb558f813fde1a5.bindPopup(popup_aff16856d8af73c71136162bf53bda57)
+        ;
+
+        
+    
+    
+                marker_990ea6de28046015bdb558f813fde1a5.setIcon(icon_7f3b29e4eb09d83c8a73233f6daecda2);
+            
+    
+            var marker_e442ae744a21cf8e2b24611d8c7d5fa5 = L.marker(
+                [52.60199997113532, 11.852999950372487],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_c2dffc1f771c9201d60c829f138bf6bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4685d960986afbc666124c6197dc2b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f7c0c1ce1d78be37c057769fed13371 = $(`<div id="html_9f7c0c1ce1d78be37c057769fed13371" style="width: 100.0%; height: 100.0%;">🏫 FS "Pestalozzi" Stendal</div>`)[0];
+                popup_e4685d960986afbc666124c6197dc2b6.setContent(html_9f7c0c1ce1d78be37c057769fed13371);
+            
+        
+
+        marker_e442ae744a21cf8e2b24611d8c7d5fa5.bindPopup(popup_e4685d960986afbc666124c6197dc2b6)
+        ;
+
+        
+    
+    
+                marker_e442ae744a21cf8e2b24611d8c7d5fa5.setIcon(icon_c2dffc1f771c9201d60c829f138bf6bd);
+            
+    
+            var marker_db4dc13ecfe6132e0b49303f978ea7cf = L.marker(
+                [52.60500001805498, 11.852000055170056],
+                {
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+            var icon_9fe8bbc42b7f696ec2982f3f881bb529 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "glyphicon-education",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e6033ae4687822861458076ed9ca7c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39eccac026590766c0bb45b4c6896f30 = $(`<div id="html_39eccac026590766c0bb45b4c6896f30" style="width: 100.0%; height: 100.0%;">🏫 BSZ SDL</div>`)[0];
+                popup_6e6033ae4687822861458076ed9ca7c5.setContent(html_39eccac026590766c0bb45b4c6896f30);
+            
+        
+
+        marker_db4dc13ecfe6132e0b49303f978ea7cf.bindPopup(popup_6e6033ae4687822861458076ed9ca7c5)
+        ;
+
+        
+    
+    
+                marker_db4dc13ecfe6132e0b49303f978ea7cf.setIcon(icon_9fe8bbc42b7f696ec2982f3f881bb529);
+            
+    
+            var circle_marker_5dc0c04f9db61b8f1864f0fa1aad0cfd = L.circleMarker(
+                [52.434782096334835, 11.959444155520748],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_fc193e2c0284582e1ea9b688e55c8934 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7849fdff4c048a6ae595eeb6747643f = $(`<div id="html_c7849fdff4c048a6ae595eeb6747643f" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Grieben, Schule</div>`)[0];
+                popup_fc193e2c0284582e1ea9b688e55c8934.setContent(html_c7849fdff4c048a6ae595eeb6747643f);
+            
+        
+
+        circle_marker_5dc0c04f9db61b8f1864f0fa1aad0cfd.bindPopup(popup_fc193e2c0284582e1ea9b688e55c8934)
+        ;
+
+        
+    
+    
+            var circle_marker_377d6bb655d216b68ae777790b100545 = L.circleMarker(
+                [52.50645517732623, 11.75092427658329],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_2d038c618ccedff7af93359ddf5d41eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b131245d8a609508025b954af7937ec = $(`<div id="html_9b131245d8a609508025b954af7937ec" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Lüderitz, Schule</div>`)[0];
+                popup_2d038c618ccedff7af93359ddf5d41eb.setContent(html_9b131245d8a609508025b954af7937ec);
+            
+        
+
+        circle_marker_377d6bb655d216b68ae777790b100545.bindPopup(popup_2d038c618ccedff7af93359ddf5d41eb)
+        ;
+
+        
+    
+    
+            var circle_marker_09408d4f3c1da412a102d4f4854abda2 = L.circleMarker(
+                [52.59587783544016, 11.852048419030753],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_5325ca02c0d5d61f6b84d527b59a4dc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d022f8305d911a6d30329aded3b9a66 = $(`<div id="html_7d022f8305d911a6d30329aded3b9a66" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Stendal, Röxer Straße</div>`)[0];
+                popup_5325ca02c0d5d61f6b84d527b59a4dc5.setContent(html_7d022f8305d911a6d30329aded3b9a66);
+            
+        
+
+        circle_marker_09408d4f3c1da412a102d4f4854abda2.bindPopup(popup_5325ca02c0d5d61f6b84d527b59a4dc5)
+        ;
+
+        
+    
+    
+            var circle_marker_ab8bf33c5cc4f55e4ec390d364f5d4b2 = L.circleMarker(
+                [52.6017411048689, 11.844666662660732],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_b2ea8d8c106b88eac38a9e8e1ee5cc79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9771d1bd352262dd9afff45a4269d886 = $(`<div id="html_9771d1bd352262dd9afff45a4269d886" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Stendal, Zum Stadtsee</div>`)[0];
+                popup_b2ea8d8c106b88eac38a9e8e1ee5cc79.setContent(html_9771d1bd352262dd9afff45a4269d886);
+            
+        
+
+        circle_marker_ab8bf33c5cc4f55e4ec390d364f5d4b2.bindPopup(popup_b2ea8d8c106b88eac38a9e8e1ee5cc79)
+        ;
+
+        
+    
+    
+            var circle_marker_c25ada4a91b1c4b0e17d785847b2bf2b = L.circleMarker(
+                [52.61677723917179, 11.855824565607682],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_d06b344dd7f1db06438c866af0069999 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7e79adc2bca31efc1b41bf8fe7c4b00 = $(`<div id="html_c7e79adc2bca31efc1b41bf8fe7c4b00" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Stendal, Nord</div>`)[0];
+                popup_d06b344dd7f1db06438c866af0069999.setContent(html_c7e79adc2bca31efc1b41bf8fe7c4b00);
+            
+        
+
+        circle_marker_c25ada4a91b1c4b0e17d785847b2bf2b.bindPopup(popup_d06b344dd7f1db06438c866af0069999)
+        ;
+
+        
+    
+    
+            var circle_marker_8e9359f7147e4607baf06ad240324430 = L.circleMarker(
+                [52.61774641118378, 11.855399501118423],
+                {"bubblingMouseEvents": true, "color": "lime", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lime", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_bca0443fd0851f40d5af6f494e66a483 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c0f583a36520a23a2c583323780fef2 = $(`<div id="html_1c0f583a36520a23a2c583323780fef2" style="width: 100.0%; height: 100.0%;">🚌 Stop2: Stendal, Friesenstraße</div>`)[0];
+                popup_bca0443fd0851f40d5af6f494e66a483.setContent(html_1c0f583a36520a23a2c583323780fef2);
+            
+        
+
+        circle_marker_8e9359f7147e4607baf06ad240324430.bindPopup(popup_bca0443fd0851f40d5af6f494e66a483)
+        ;
+
+        
+    
+    
+            var circle_marker_ceb24f9e488e8bc8a30c1cb6a478bfc7 = L.circleMarker(
+                [52.60450867251927, 11.853054819615805],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_f8493ca290172b9eb2c0dc329e7abc3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69fb35047279fe65c3f7c61dcd91d08d = $(`<div id="html_69fb35047279fe65c3f7c61dcd91d08d" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Stendal, Stadtseeallee</div>`)[0];
+                popup_f8493ca290172b9eb2c0dc329e7abc3d.setContent(html_69fb35047279fe65c3f7c61dcd91d08d);
+            
+        
+
+        circle_marker_ceb24f9e488e8bc8a30c1cb6a478bfc7.bindPopup(popup_f8493ca290172b9eb2c0dc329e7abc3d)
+        ;
+
+        
+    
+    
+            var circle_marker_82fe602ebce31d7082db192b3c6f4721 = L.circleMarker(
+                [52.43355598174734, 11.818886372837914],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_f4b3cfbbd6ef479d4443ba7a710a1f8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baaa19891908f7a6edd7bb944c0a2825 = $(`<div id="html_baaa19891908f7a6edd7bb944c0a2825" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Tangerhütte, Grundschule</div>`)[0];
+                popup_f4b3cfbbd6ef479d4443ba7a710a1f8d.setContent(html_baaa19891908f7a6edd7bb944c0a2825);
+            
+        
+
+        circle_marker_82fe602ebce31d7082db192b3c6f4721.bindPopup(popup_f4b3cfbbd6ef479d4443ba7a710a1f8d)
+        ;
+
+        
+    
+    
+            var circle_marker_52e6bf4958dcb4537b80c75881fa6404 = L.circleMarker(
+                [52.54424052457903, 11.972688872684937],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_9cbea65ade8c6ee86f54badb822766c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e29491008e8be8858222e2b5ea966e4b = $(`<div id="html_e29491008e8be8858222e2b5ea966e4b" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Tangermünde, Lindenstraße</div>`)[0];
+                popup_9cbea65ade8c6ee86f54badb822766c1.setContent(html_e29491008e8be8858222e2b5ea966e4b);
+            
+        
+
+        circle_marker_52e6bf4958dcb4537b80c75881fa6404.bindPopup(popup_9cbea65ade8c6ee86f54badb822766c1)
+        ;
+
+        
+    
+    
+            var circle_marker_5823119519dacc2577074997b0bc3760 = L.circleMarker(
+                [52.595292722987274, 11.856252191970755],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_1b211f62d5b34eedafc805b032ccadbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fb4f6d1d4d2886e73e8d95b66a47694 = $(`<div id="html_6fb4f6d1d4d2886e73e8d95b66a47694" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Stendal, Hauptbahnhof</div>`)[0];
+                popup_1b211f62d5b34eedafc805b032ccadbf.setContent(html_6fb4f6d1d4d2886e73e8d95b66a47694);
+            
+        
+
+        circle_marker_5823119519dacc2577074997b0bc3760.bindPopup(popup_1b211f62d5b34eedafc805b032ccadbf)
+        ;
+
+        
+    
+    
+            var circle_marker_4e875aad287007a935e499600307ef31 = L.circleMarker(
+                [52.59587783544016, 11.852048419030753],
+                {"bubblingMouseEvents": true, "color": "lime", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lime", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_62448a641570abe1e069304d49c69a7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38dac24f878e4df008a0cdc3b4554113 = $(`<div id="html_38dac24f878e4df008a0cdc3b4554113" style="width: 100.0%; height: 100.0%;">🚌 Stop2: Stendal, Röxer Straße</div>`)[0];
+                popup_62448a641570abe1e069304d49c69a7b.setContent(html_38dac24f878e4df008a0cdc3b4554113);
+            
+        
+
+        circle_marker_4e875aad287007a935e499600307ef31.bindPopup(popup_62448a641570abe1e069304d49c69a7b)
+        ;
+
+        
+    
+    
+            var circle_marker_f6ce2ecef9e796cad819220c6c6cd6b1 = L.circleMarker(
+                [52.60772675605335, 11.863814687560753],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_ff0790cb90fc7d7e2d3153de2226132f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18b746bffbae24d4d7fc98eb3b39f714 = $(`<div id="html_18b746bffbae24d4d7fc98eb3b39f714" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Stendal, Stadtmitte</div>`)[0];
+                popup_ff0790cb90fc7d7e2d3153de2226132f.setContent(html_18b746bffbae24d4d7fc98eb3b39f714);
+            
+        
+
+        circle_marker_f6ce2ecef9e796cad819220c6c6cd6b1.bindPopup(popup_ff0790cb90fc7d7e2d3153de2226132f)
+        ;
+
+        
+    
+    
+            var circle_marker_92011a92b08e8a51de502064b306b31c = L.circleMarker(
+                [52.609372782957415, 11.858440737678354],
+                {"bubblingMouseEvents": true, "color": "lime", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lime", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_53c395f37101f8f5aad5b5522ba3a509 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6df3e28d8c7569724fcce7b3d6c8b15b = $(`<div id="html_6df3e28d8c7569724fcce7b3d6c8b15b" style="width: 100.0%; height: 100.0%;">🚌 Stop2: Stendal, Altstadt</div>`)[0];
+                popup_53c395f37101f8f5aad5b5522ba3a509.setContent(html_6df3e28d8c7569724fcce7b3d6c8b15b);
+            
+        
+
+        circle_marker_92011a92b08e8a51de502064b306b31c.bindPopup(popup_53c395f37101f8f5aad5b5522ba3a509)
+        ;
+
+        
+    
+    
+            var circle_marker_1006360604bb566cb8ae9ae860b24717 = L.circleMarker(
+                [52.539895854828174, 11.960548916505642],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_7b0f5370c34d134ef2b5a27d6fbf8f59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_562fd582fafed06a6d761ae4ede1692a = $(`<div id="html_562fd582fafed06a6d761ae4ede1692a" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Tangermünde, Sekundarschule</div>`)[0];
+                popup_7b0f5370c34d134ef2b5a27d6fbf8f59.setContent(html_562fd582fafed06a6d761ae4ede1692a);
+            
+        
+
+        circle_marker_1006360604bb566cb8ae9ae860b24717.bindPopup(popup_7b0f5370c34d134ef2b5a27d6fbf8f59)
+        ;
+
+        
+    
+    
+            var circle_marker_9e74942e9229905abd6151ec58384316 = L.circleMarker(
+                [52.43839467146713, 11.802496876646709],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_81c8df06c583792f75c93a7c87f225a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b93623ac155a0df718ce050180407bbb = $(`<div id="html_b93623ac155a0df718ce050180407bbb" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Tangerhütte, Schönwalder Straße</div>`)[0];
+                popup_81c8df06c583792f75c93a7c87f225a9.setContent(html_b93623ac155a0df718ce050180407bbb);
+            
+        
+
+        circle_marker_9e74942e9229905abd6151ec58384316.bindPopup(popup_81c8df06c583792f75c93a7c87f225a9)
+        ;
+
+        
+    
+    
+            var circle_marker_db05c97a93e45dfc9d803a0e9c4b5cb8 = L.circleMarker(
+                [52.54424052457903, 11.972688872684937],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_bc356e2a4d3304ad00b6bdf841d75ec2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb4e575419881585e4061319272d9311 = $(`<div id="html_eb4e575419881585e4061319272d9311" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Tangermünde, Lindenstraße</div>`)[0];
+                popup_bc356e2a4d3304ad00b6bdf841d75ec2.setContent(html_eb4e575419881585e4061319272d9311);
+            
+        
+
+        circle_marker_db05c97a93e45dfc9d803a0e9c4b5cb8.bindPopup(popup_bc356e2a4d3304ad00b6bdf841d75ec2)
+        ;
+
+        
+    
+    
+            var circle_marker_4960b876774b0732e24f86fcf2c150ff = L.circleMarker(
+                [52.60450867251927, 11.853054819615805],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_edd35dfe8e8c93a16785a07f1d0c4812 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b6ee05134f95ad26128784be4dbe5ce = $(`<div id="html_9b6ee05134f95ad26128784be4dbe5ce" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Stendal, Stadtseeallee</div>`)[0];
+                popup_edd35dfe8e8c93a16785a07f1d0c4812.setContent(html_9b6ee05134f95ad26128784be4dbe5ce);
+            
+        
+
+        circle_marker_4960b876774b0732e24f86fcf2c150ff.bindPopup(popup_edd35dfe8e8c93a16785a07f1d0c4812)
+        ;
+
+        
+    
+    
+            var circle_marker_f25241bb062cd850c980df9fe08f6685 = L.circleMarker(
+                [52.596188609208944, 11.826894738429003],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_7bba440af7790018018ead2c4226da82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5732c49784c8c735226bf0ea4ce4317 = $(`<div id="html_d5732c49784c8c735226bf0ea4ce4317" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Stendal, Max-Planck-Straße</div>`)[0];
+                popup_7bba440af7790018018ead2c4226da82.setContent(html_d5732c49784c8c735226bf0ea4ce4317);
+            
+        
+
+        circle_marker_f25241bb062cd850c980df9fe08f6685.bindPopup(popup_7bba440af7790018018ead2c4226da82)
+        ;
+
+        
+    
+    
+            var circle_marker_1c36a221b2736cb962e0fe37581d4182 = L.circleMarker(
+                [52.6109699157006, 11.83099102922069],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+        
+    
+        var popup_209ca58c29d29f06565f1d4aae3132ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a876661dfe57b9aa36d418d927fa8158 = $(`<div id="html_a876661dfe57b9aa36d418d927fa8158" style="width: 100.0%; height: 100.0%;">🚌 Stop1: Stendal, Berufsschulzentrum</div>`)[0];
+                popup_209ca58c29d29f06565f1d4aae3132ad.setContent(html_a876661dfe57b9aa36d418d927fa8158);
+            
+        
+
+        circle_marker_1c36a221b2736cb962e0fe37581d4182.bindPopup(popup_209ca58c29d29f06565f1d4aae3132ad)
+        ;
+
+        
+    
+    
+            var layer_control_3f8ca2b2cc9779202726e54ade1c036e_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_712c170642f3d03c8999335657f44620,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_3f8ca2b2cc9779202726e54ade1c036e = L.control.layers(
+                layer_control_3f8ca2b2cc9779202726e54ade1c036e_layers.base_layers,
+                layer_control_3f8ca2b2cc9779202726e54ade1c036e_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_fe2b1062f457e0a0b6a79a5636aac988);
+
+        
+</script>
+</html>
