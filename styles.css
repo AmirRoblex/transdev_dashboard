@@ -1,0 +1,235 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6; /* Light gray background for the page */
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; /* Removed gap as padding will handle spacing */
+  /* height: 100vh; /* Full viewport height */
+  /* overflow: hidden; /* Prevent scrollbars on the container itself */
+}
+
+.dashboard-header {
+  /* border-bottom: 2px solid #e5e7eb; */ /* Using Tailwind classes */
+  /* padding-bottom: 0.5rem; */ /* Using Tailwind classes */
+  background-color: #ffffff; /* White header background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+}
+
+.dashboard-title {
+  /* font-size: 1.875rem; */ /* Using Tailwind classes */
+  /* font-weight: 700; */ /* Using Tailwind classes */
+  /* color: #1f2937; */ /* Using Tailwind classes */
+}
+
+/* Header Navigation Styles */
+.header-nav-item.active {
+  background-color: #3b82f6; /* Blue-500 */
+  color: white;
+  font-weight: 600;
+}
+
+
+.dashboard-body {
+  /* display: flex; */ /* Using Tailwind classes */
+  /* flex-direction: row; */ /* Using Tailwind classes */
+  /* gap: 2rem; */ /* Using Tailwind classes */
+  /* height: calc(100vh - 6rem); */ /* Adjusted height calculation in HTML style attribute */
+  /* overflow: hidden; */ /* Prevent internal scroll unless necessary by child elements */
+}
+
+.vertical-tab-navigation-container {
+  width: 250px; /* Slightly wider for better text fit */
+  /* padding-top: 1rem; */ /* Using Tailwind classes */
+  background-color: #ffffff; /* White background for nav */
+  /* border-right: 1px solid #e5e7eb; */ /* Using Tailwind classes */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.vertical-tab-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Space between tab buttons */
+}
+
+.tab-button {
+  padding: 0.875rem 1.25rem; /* Slightly more padding */
+  border-left: 4px solid transparent;
+  background-color: transparent;
+  color: #4b5563; /* Gray-600 for text */
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 0 0.375rem 0.375rem 0; /* Rounded on the right */
+}
+
+.tab-button:hover {
+  background-color: #eef2ff; /* Indigo-50 for hover */
+  color: #3730a3; /* Indigo-800 for hover text */
+  border-left-color: #6366f1; /* Indigo-500 for hover border */
+}
+
+.tab-button.tab-active {
+  border-left-color: #3b82f6; /* Blue-500 for active border */
+  background-color: #dbeafe; /* Blue-100 for active background */
+  color: #2563eb; /* Blue-600 for active text */
+  font-weight: 600; /* Bolder text for active tab */
+}
+
+.tab-content-area {
+  /* flex: 1; */ /* Using Tailwind classes */
+  /* padding: 1rem; */ /* Using Tailwind classes */
+  /* overflow-y: auto; */ /* Using Tailwind classes */
+  background-color: #f9fafb; /* Very light gray for content background */
+}
+
+.tab-content-title {
+  /* font-size: 1.5rem; */ /* Using Tailwind classes */
+  /* font-weight: 600; */ /* Using Tailwind classes */
+  /* margin-bottom: 1rem; */ /* Using Tailwind classes */
+  color: #1f2937; /* Dark gray for titles */
+}
+
+.map-container { /* This class seems unused in the provided HTML, but kept for potential future use */
+  height: 80vh;
+  width: 100%;
+  border: 1px solid #d1d5db; /* Gray-300 border */
+  border-radius: 0.75rem; /* Rounded corners */
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Tailwind shadow-lg */
+}
+
+.loading-spinner-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 500;
+}
+
+.loading-spinner {
+  border: 4px solid #e5e7eb; /* Gray-200 */
+  border-top: 4px solid #3b82f6; /* Blue-500 */
+  border-radius: 50%;
+  width: 3rem; /* Larger spinner */
+  height: 3rem; /* Larger spinner */
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none !important; /* Ensure hidden class takes precedence */
+}
+
+iframe {
+  border: none; /* Ensure iframes have no border */
+  /* width: 100%; */ /* Using Tailwind classes */
+  /* height: 100%; */ /* Using Tailwind classes */
+}
+
+/* Styles for the new content sections */
+.general-content {
+    /* Padding and background are handled by Tailwind in HTML */
+}
+
+/* Table styles */
+table {
+    /* min-width, divide, etc. handled by Tailwind */
+}
+thead th {
+    background-color: #f9fafb; /* Light gray for table header */
+}
+
+/* Meet Our Team Card Styles */
+.team-member-card {
+    /* Background, padding, rounded, shadow handled by Tailwind */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+.team-member-card:hover {
+    /* transform: translateY(-5px); */ /* Lift effect on hover */
+    /* box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05); */ /* Enhanced shadow on hover */
+}
+.team-member-card img {
+    /* width, height, rounded, margin, border handled by Tailwind */
+}
+.team-member-card h3 {
+    /* Text size, weight, color, margin handled by Tailwind */
+}
+.team-member-card p {
+    /* Text size, color, margin handled by Tailwind */
+}
+.team-member-card a {
+    /* Display, width, text alignment, bg, color, padding, rounded, hover effects handled by Tailwind */
+}
+
+/* Contact Us Form Styles */
+#contactUsContent input[type="text"],
+#contactUsContent input[type="email"],
+#contactUsContent textarea {
+    /* Margin, block, width, padding, border, rounded, shadow, focus states handled by Tailwind */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contactUsContent button[type="submit"] {
+    /* Width, flex, justify, padding, border, rounded, shadow, text, bg, hover, focus states handled by Tailwind */
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive adjustments for vertical tabs on smaller screens */
+@media (max-width: 767px) { /* md breakpoint in Tailwind */
+  .dashboard-body {
+    /* flex-direction: column; */ /* Already handled by Tailwind flex-col md:flex-row */
+  }
+  .vertical-tab-navigation-container {
+    width: 100%; /* Full width on small screens */
+    /* border-right: none; */ /* Handled by Tailwind md:border-r */
+    /* border-bottom: 1px solid #e5e7eb; */ /* Handled by Tailwind border-b md:border-b-0 */
+    /* padding-top: 0; */ /* Handled by Tailwind p-4 md:p-0 md:pt-4 */
+  }
+  .vertical-tab-navigation {
+    /* flex-direction: row; */ /* Already handled by Tailwind flex-row md:flex-col */
+    /* overflow-x: auto; */ /* Already handled by Tailwind overflow-x-auto */
+    /* padding-bottom: 0.5rem; */ /* Handled by Tailwind pb-2 md:pb-0 */
+  }
+  .tab-button {
+    border-left: none; /* Remove left border */
+    border-bottom: 4px solid transparent; /* Use bottom border for active state */
+    border-radius: 0.375rem 0.375rem 0 0; /* Rounded top corners */
+    padding: 0.75rem 1rem; /* Adjust padding */
+    /* white-space: nowrap; */ /* Already handled by Tailwind */
+  }
+  .tab-button.tab-active {
+    border-left-color: transparent;
+    border-bottom-color: #3b82f6; /* Blue-500 for active bottom border */
+  }
+  .tab-button:hover {
+    border-left-color: transparent;
+    border-bottom-color: #6366f1; /* Indigo-500 for hover bottom border */
+  }
+  .tab-content-area {
+    /* padding: 0.5rem; */ /* Handled by Tailwind p-4 */
+  }
+  .header-nav {
+    /* flex-wrap: wrap; */ /* Allow header items to wrap on very small screens if needed */
+    /* justify-content: center; */
+  }
+  .header-nav-item {
+    /* padding: 0.5rem 0.75rem; */ /* Adjust padding for smaller screens */
+    /* font-size: 0.8rem; */
+  }
+}
